@@ -89,7 +89,7 @@ $koneksi = mysqli_connect("127.0.0.1", "root", "", "dbtopup");
     <header>
         <nav class="navbar navbar-expand-sm bg-dark fixed-top shadow-lg" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="http://<?= $_SERVER['SERVER_NAME'] ?>/ZeeShop">
+                <a class="navbar-brand" href="../index.php">
                     <img src="../image/logo/Logo.png"jpg
                         alt="Logo" width="78" height="50" class="d-inline-block align-text-top img-brand me-4">
                 </a>
