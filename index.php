@@ -149,7 +149,6 @@ include 'templates/header.php';
                 <img src="data:image/jpeg;base64,<?php echo base64_encode($gambar_slide); ?>" class="d-block w-100 slide-img" alt="<?php echo $nama_slide; ?>">
                 <div class="carousel-caption d-none d-md-block text-start">
                   <h2 class="fw-bold text-white"><?php echo $nama_slide; ?></h2>
-                  <a href="#" class="btn btn-warning fw-bold mt-2">BACA SELENGKAPNYA</a>
                 </div>
               </div>
           <?php
@@ -217,7 +216,7 @@ include 'templates/header.php';
       </div>
     </div>
   </div>
-  <a href="https://wa.me/083893082654" class="btn btn-service btn-bulat d-flex justify-content-center align-items-center">
+  <a href="https://wa.me/+6283893082654" class="btn btn-service btn-bulat d-flex justify-content-center align-items-center">
     <h2><i class="fab fa-whatsapp fa-lg" style="color: #ffffff; margin-top: 25px; margin-left: 2px"></i></h2>
   </a>
 </body>
